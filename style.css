@@ -1,0 +1,185 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+
+   
+
+
+body {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+
+   overflow-y: hidden;
+
+   /* margin: 0; */
+
+   /* vh : viewport height */
+
+   background-color: hsl(217, 54%, 11%);
+   font-family: outfit;
+
+}
+   
+   #img{
+       width: 100%;
+       border-radius: 20px;
+       /* filter: brightness(70%); */
+       /* background-color: hsl(178, 100%, 50%) ; */
+       
+    }
+    
+
+    .card {
+       padding: 16px;
+       width: 300px;
+       border-radius: 10px;
+       /* margin: auto; */
+       background-color: hsl(216, 50%, 16%);
+       box-shadow: 0 0 50px hsl(216, 50%, 16%);
+         
+       
+
+       /* transition: all .3s; */
+    }
+
+    
+
+    h1 {
+       color: white;
+       text-align: left;
+       font-size: 20px;
+       justify-content: center; 
+       margin-bottom: 20px;
+       margin-top: 20px;    
+    }
+
+    #rule {
+       text-align: left;
+       color: hsl(215, 32%, 27%);
+       font-size: 16px;
+       margin-bottom: 20px;
+    }
+
+
+    .number {
+       display: flex;
+       justify-content: space-between;
+       margin-bottom: 20px;
+
+    }
+
+    .eth {
+       display: flex;
+       align-items: center;
+
+
+    }
+
+    .left {
+       display: flex;
+       align-items: center;
+    }
+
+    #avt {
+       width: 25px;
+       height: 25px;
+       float: left;
+       border: solid;
+       border-radius: 50px;
+       border-color: white;
+       margin-bottom: 5px;
+       margin-top: 8px;
+
+
+
+    }
+
+    .avatar {
+       display: flex;
+       word-spacing: 2px;
+       margin-top: 10px;
+       margin-bottom: 2px;
+
+    }
+
+    #name {
+       padding-left: 15px;
+       color: hsl(215, 51%, 70%);
+       margin-top: 10px;
+
+    }
+
+    #num {
+       color: hsl(178, 100%, 50%);
+       padding-left: 10px;
+    }
+
+    @font-face {
+       font-family: Outfit;
+       src: url(fonts/Outfit.ttf);
+    }
+
+    #triangle {
+       width: 10px;
+    }
+
+    #day {
+       padding-left: 10px;
+       color: hsl(215, 32%, 27%);
+    }
+
+    .couleur {
+       border-color: hsl(215, 32%, 27%);
+       border-width: 1px;
+
+    }
+
+    #img:hover{
+      cursor: pointer;
+    }
+    
+
+    h1:hover{
+      color: hsl(178, 100%, 50%) ;
+      cursor: pointer;
+      
+    }
+
+    #change {
+      color: white;
+    }
+   
+    #change:hover{
+      /* color: red !important; */
+      cursor: pointer;
+      color: hsl(178, 100%, 50%) ;
+    }
+
+    .survol {
+      position: relative;
+    }
+
+    #img:hover + .eye-container {
+      display: flex !important;
+      cursor: pointer;
+    }
+
+    .eye-container {
+      position: absolute;
+      inset: 0;
+      background-color: hsl(178, 100%, 50%);
+      border-radius: 20px;
+      opacity: 0.7;
+      display: none;
+      align-items: center;
+      justify-content: center;
+      transition: all .3s;
+    }
+
+    /* .survol:hover{
+      background-color:hsl(178, 100%, 50%) ;
+    } */
+
